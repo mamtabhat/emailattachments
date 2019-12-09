@@ -125,10 +125,6 @@ setInterval(function(){
       var filename = attachment.params.name;
       var encoding = attachment.encoding;
       
-      const encodingdata = toUpper(encoding)
-  
-      //console.log("attachdata", attachment);
-    
       return function (msg, seqno) {
         var prefix = '(#' + seqno + ') ';
         
@@ -204,5 +200,5 @@ setInterval(function(){
     }
   
   
-  }, 60000 * 5);
+  }, 60000 * 30);
  
