@@ -1,0 +1,19 @@
+{
+  "name": "w4t-mailparsing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64-stream": "^1.0.0",
+    "bluebird": "^3.7.2",
+    "fs": "0.0.1-security",
+    "imap": "^0.8.19",
+    "mailparser": "^2.7.7",
+    "path": "^0.12.7"
+  }
+}
